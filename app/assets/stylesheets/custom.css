@@ -12,6 +12,12 @@ color: white;
 
 }
 
+a
+{
+color: white;
+text-decoration: none;
+}
+
 body {
 	display: flex;
 	justify-content: center;
@@ -19,8 +25,10 @@ body {
 	background-color: grey;
 	font-family: 'montserrat';
 	background: url("http://www.ecole-estienne.paris/wp-content/uploads/2017/01/bibliotheque-salle-de-lecture-800x526.jpg") ;
-	background-size: cover
+	background-size: cover;
 }
+
+
 
 .container {
 	display: flex;
@@ -28,40 +36,36 @@ body {
 	height: 610px;
 	margin-top: 5rem;
 	background-color: white;
-	border-radius: 10px;	
+	border-radius: 10px;
+	
 }
 
-.container > div {
-padding-left: 20px;
+.uniform {
+	padding-left: 10px;
+	text-align: left;
 
 }
-/* div gauche */
+
+
 .container > div:first-child {
 	background-color: #489AF7;
 	width: 60%;
 	color: white;
+	padding-right: 10px;
+
+
 }
-/* div droite basse */
+/* case grise "créer un compte"du bas */
 .login {
+	display: block;
 	background-color: #999;
-  width:270px;
-  height: 80px; /* hauteur du bandeau gris */
-  position: absolute;
-  bottom: 10;
-  right:0;
-  font-size: 12px;
-  text-align: center;
-  line-height: 55px;
-  	width: 35%;
+	width: 400px;
+	height: 120px;
+	text-align: center;
+	margin-top: 350px;
+
 
 }
-
-
-
-
-
-
-
 
 
 

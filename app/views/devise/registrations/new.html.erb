@@ -1,18 +1,18 @@
 <div class="container"> 
-  <div> 
+  <div class="uniform"> 
     <h1>uniform </h1> 
-    L'inscription devient plus simple  
-
-</div>
+    L'inscription devient plus simple 
+    <hr> 
     <ul>
       <li> Un seul formulaire pour toutes les écoles </li>
       <li> Gérez facilement vos candidatures </li>
       <li> Stockez vos données scolaires </li>
+
     </ul>
   </div>
   
   <div>
-    <div class="hautdediv">
+    <div>
       <h5> Entrez vos identifiants </h5>
       <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>
